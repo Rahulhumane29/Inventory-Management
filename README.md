@@ -9,12 +9,12 @@ Inventory Management API
 
 Tools & Technologies
 
-1.Python
-2.Django
-3.Django REST Framework
-4.ReportLab (PDF generation)
-5.OpenPyXL (Excel generation)
-6.SQLite (default DB)
+1. Python
+2. Django
+3. Django REST Framework
+4. ReportLab (PDF generation)
+5. OpenPyXL (Excel generation)
+6. SQLite (default DB)
 
 1.Create Virtual Environment
 python -m venv inventory 
