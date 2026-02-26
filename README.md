@@ -16,31 +16,38 @@ Tools & Technologies
 5. OpenPyXL (Excel generation)
 6. SQLite (default DB)
 
+
 1. Create Virtual Environment
 python -m venv inventory 
 Activate it:
 .\inventory\Scripts\activate
 
+
 2. Install Dependencies
 pip freeze > requirements.txt
 pip install django djangorestframework reportlab openpyxl django-filter
+
 
 3. Apply Migrations
 python manage.py makemigrations
 python manage.py migrate
 
+
 4. Create Superuser
 python manage.py createsuperuser
+
 
 5. How to Run the Server
 python manage.py runserver
 Server will run at:
 http://127.0.0.1:8000/
 
+
 6.How to Test APIs
 You can test APIs using:
-1. Postman
-2. Browser (for GET APIs)
+1) Postman
+2) Browser (for GET APIs)
+
 
 7.Base URL
 http://127.0.0.1:8000/api/items/
@@ -67,8 +74,10 @@ http://127.0.0.1:8000/api/items/<id>/
 5) Filtering
 http://127.0.0.1:8000/api/items/?min_quantity=30
 
+
 8. How to Generate PDF
 http://127.0.0.1:8000/api/items/export/pdf/
+
 
 9. How to Generate Excel
 http://127.0.0.1:8000/api/items/export/excel/
